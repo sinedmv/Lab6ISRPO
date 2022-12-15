@@ -1,5 +1,5 @@
 
-#include <lib/number.h>
+#include "Lab6ISRPO/lib/number.h"
 #include <iostream>
 
 int main() {
