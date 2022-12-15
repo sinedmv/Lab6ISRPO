@@ -42,7 +42,9 @@ jobs:
       run: g++ bin/main.cpp -o main
       
     - name: Exe
-    - run: git add.
-    - run: git commit -m "smth"
-    - run: git push
+      run: git add .
+    - name: Exe2  
+      run: git commit -m "smth"
+    - name: Exe3
+      run: git push
 
